@@ -1,0 +1,37 @@
+# Checks the website every 15 minutes. If it fails three times in a row, the run fails and GitHub e-mails the owner
+# (Settings > Notifications > Actions: "Notify on failed workflows").
+name: Site check
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Home page, download and API answer
+        shell: bash
+        run: |
+          check() {
+            local code
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$1")
+            echo "$1 -> $code (expected $2)"
+            [ "$code" = "$2" ]
+          }
+          for attempt in 1 2 3; do
+            if check https://safehouse-works.pages.dev/ 200 \
+              && check https://safehouse-works.pages.dev/download 302 \
+              && check https://safehouse-works.pages.dev/api/release 200; then
+              echo "Site OK"
+              exit 0
+            fi
+            echo "Attempt $attempt failed; trying again in 60 s"
+            sleep 60
+          done
+          echo "::error::safehouse-works.pages.dev is not answering as expected"
+          exit 1
