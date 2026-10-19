@@ -17,7 +17,7 @@ A free Windows app that installs and runs a Project Zomboid dedicated server: Wo
 
 ## What it does
 - **The server in one click** — installs and updates the official dedicated server with SteamCMD (Valve's signature checked), start/stop/restart, a console with filters and command history, a daily restart that warns the players and copies the world.
-- **Mods in the right order** — paste Workshop links or a whole collection: Workshop IDs ↔ Mod IDs, dependencies added automatically, drag to reorder, warnings when something is out of place, alerts for outdated or removed mods.
+- **Mods in the right order** — add from the Workshop inside the app, paste links or a whole collection: Workshop IDs ↔ Mod IDs, the items a mod needs on the Workshop are downloaded too and their dependencies added automatically, drag to reorder, warnings when something is out of place, alerts for outdated or removed mods.
 - **Friends inside** — Windows Firewall rule (UDP, server ports only, the networks you choose), router steps, an invite ready for Discord, and modpack codes so friends can check they have the same mods.
 - **Your players** — see who is on, kick, ban, unban or make someone admin with a button.
 - **Go back when it breaks** — every change to the mod list is kept; restore the last list that worked. **World copies** in one click (and before each daily restart), put any copy back — the current world is copied first.
@@ -64,7 +64,7 @@ Licence: all rights reserved — free to download and use, no warranty.
 
 **O teu servidor de Project Zomboid para os amigos, no ar em minutos.** App gratuita para Windows 10/11 que instala e gere um servidor dedicado: mods do Workshop pela ordem certa, firewall e convite para os amigos, sem linhas de comando.
 
-Também: lista de **jogadores** (expulsar, banir, dar admin), **cópias do mundo** com um clique (e repor qualquer uma), aviso quando a Steam **atualiza o jogo**, **reinício automático** se o servidor falhar e **cinco temas** com fundo animado.
+Ao juntar um mod, a app também descarrega os **itens de que ele precisa no Workshop** e põe os Mod IDs por ordem no `.ini`. Também: lista de **jogadores** (expulsar, banir, dar admin), **cópias do mundo** com um clique (e repor qualquer uma), aviso quando a Steam **atualiza o jogo**, **reinício automático** se o servidor falhar e **cinco temas** com fundo animado.
 
 > Projeto de fãs, não oficial, sem ligação à The Indie Stone. Project Zomboid pertence aos respetivos donos. Não comercial.
 

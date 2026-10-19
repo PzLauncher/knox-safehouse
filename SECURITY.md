@@ -29,6 +29,7 @@ As versões ainda **não têm assinatura de código** (o Windows SmartScreen pod
 | 0.2.0 (build de teste) | `428F27C5DA50A976D22389B67043A5CD56CDD65F2B9C2E3776D89E37E6CAE0DF` |
 | 0.2.1 (build de teste, correções de segurança) | `6DF5074E5231AB92612199321005517155D232ABF78A191A922618B996B109F4` |
 | 0.3.0 (build de teste: jogadores, cópias do mundo, temas) | `651F6895733FB0FD18655920D53E647469D003669F146EB2C5AC1FEC460A4EAA` |
+| 1.0.0 (dependências automáticas, ícone novo) | `0087E5FEA033A82B56F3FE546FFC15115F061AF37A741E3D8033838E66230C91` |
 
 ## Bloqueio da app
 O bloqueio com o Windows Hello chega no Marco 6. Quando existir, protege contra alguém que use o teu PC já desbloqueado; **não** protege contra malware nem contra quem tenha a tua conta do Windows.
