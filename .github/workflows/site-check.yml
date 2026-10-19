@@ -4,7 +4,7 @@ name: Site check
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "17 * * * *" # hourly: the repository is private for now (Actions minutes are limited)
   workflow_dispatch:
 
 permissions: {}
