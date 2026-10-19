@@ -7,7 +7,7 @@ A free Windows app that installs and runs a Project Zomboid dedicated server: Wo
 
 <p align="center">
   <a href="https://safehouse-works.pages.dev"><b>Website</b></a> ·
-  <a href="https://github.com/PzLauncher/knox-safehouse/releases/latest"><b>Download</b></a> ·
+  <a href="https://github.com/PzLauncher/knox-safehouse/releases"><b>Download</b></a> ·
   <a href="#-português">Português</a>
 </p>
 
