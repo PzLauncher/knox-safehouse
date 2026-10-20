@@ -15,6 +15,15 @@ A free Windows app that installs and runs a Project Zomboid dedicated server: Wo
 
 ![Knox Safehouse — Home](images/home.png)
 
+## 🔜 Coming soon: version 1.1
+The screenshots below already show 1.1. The download is still **1.0** until 1.1 is out.
+- **Smoother everywhere:** the side menu slides away slowly, pages fade in, rounded window corners and colourful window buttons.
+- **New living backgrounds** in the style of Project Zomboid's map, and **My theme** to pick your own colour and picture.
+- **Sign in to Steam inside the app** with a QR code, and **invite friends from Discord**.
+- **Create server:** choose the RAM, disk and number of players; passwords are required.
+- **Check the server** after creating it, and fix most problems with one click.
+- A proper install folder, a clear update window, and an uninstall where you choose what to delete.
+
 ## What it does
 - **The server in one click** — installs and updates the official dedicated server with SteamCMD (Valve's signature checked), start/stop/restart, a console with filters and command history, a daily restart that warns the players and copies the world.
 - **Mods in the right order** — add from the Workshop inside the app, paste links or a whole collection: Workshop IDs ↔ Mod IDs, the items a mod needs on the Workshop are downloaded too and their dependencies added automatically, drag to reorder, warnings when something is out of place, alerts for outdated or removed mods.
@@ -61,6 +70,8 @@ Licence: all rights reserved — free to download and use, no warranty.
 ---
 
 ## 🇵🇹 Português
+
+> 🔜 **A versão 1.1 vem em breve:** animações mais suaves, fundos novos e «O meu tema», login da Steam com código QR, convites pelo Discord, escolher a RAM/disco/jogadores do servidor e «Verificar o servidor». As imagens já mostram a 1.1; o download continua a ser a 1.0 até ela sair.
 
 **O teu servidor de Project Zomboid para os amigos, no ar em minutos.** App gratuita para Windows 10/11 que instala e gere um servidor dedicado: mods do Workshop pela ordem certa, firewall e convite para os amigos, sem linhas de comando.
 
